@@ -10,8 +10,8 @@ module ActiveMerchant #:nodoc:
       self.default_currency = 'USD'
       self.supported_cardtypes = [:visa, :master, :american_express, :discover, :jbc, :diners_club]
 
-      self.homepage_url = 'http://developer.heartlandpaymentsystems.com/SecureSubmit/'
-      self.display_name = 'Heartland Payment Systems'
+      self.homepage_url = 'https://developer.globalpay.com/'
+      self.display_name = 'Global Payments'
 
       self.money_format = :dollars
 
